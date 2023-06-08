@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign</title>
+    <link rel="icon" href="logo-icon-new.svg">
+    <link rel="stylesheet" href="loginsign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+    <div class="sign-up">
+        <img src="icons8-male-user-94.png">
+        <h1>Sign Up Now</h1>
+        <form>
+        <input type="email" class="input-box" placeholder="Your Email">
+        <input type="password" class="input-box" placeholder="Your password">
+        <input type="password" class="input-box" placeholder="Confrim password">
+        <div class='number+998'>
+        <input type="tel" id="phone" name="phone" placeholder="phone number" class="input-box">
+        </div>
+        <input type="date" class="input-box" placeholder="your date of born">
+        <p>
+        <span><input type="checkbox"            id="termsCheckbox"></span>
+  I agree to the terms of services
+        </p>
+
+        <button type="button" class="signup-btn" onclick="signUp()">Sign up</button>
+
+
+        <hr>
+        <p class="or">OR</p>
+        <button type="button" class="google-btn">Login with Google</button>
+        <p>Do you have an account? <a href="#">Sign in</a></p>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
