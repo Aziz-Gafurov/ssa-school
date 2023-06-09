@@ -1,1 +1,1 @@
-# ssa-school.github.io
+# ssa-school
